@@ -1,0 +1,21 @@
+ img{
+    max-width: 100%;
+    user-select: none;
+ }
+ br, .logo, *::placeholder{user-select: none;}
+
+
+ .logo a{
+    background-image: url('../images/logo.png');
+    background-size: contain;
+    width: 100px; height: 75px;
+    display: table;
+ }
+
+ body, html{
+    overflow-x: hidden;
+ }
+
+ a{
+    text-decoration: none;
+ }
